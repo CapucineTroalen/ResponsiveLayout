@@ -27,6 +27,11 @@
     margin: 5px;
     padding: 5px;
 }
+
+#main-nav li a {
+	text-decoration: none;
+	color: #4d4d4d;
+}
  
 #main-nav ul {
 margin: 5px auto;
