@@ -8,7 +8,7 @@
     color: #4d4d4d;
     box-sizing: border-box;
 }
- 
+
 #title {
     color: #3e3e3e;
     font-weight: 900;
@@ -16,7 +16,7 @@
     padding-top: 5%;
 	margin-top:0;
 }
- 
+
 #main-nav li {
     display: inline-block;
     list-style-type: none;
@@ -32,70 +32,70 @@
 	text-decoration: none;
 	color: #4d4d4d;
 }
- 
+
 #main-nav ul {
 margin: 5px auto;
 padding-left: 0;
 text-align: center;
 }
- 
+
 .intro {
     padding: 5px;
 }
- 
+
 .profile {
     width: 70%;
 }
- 
+
 h2 {
     text-transform: uppercase;
 }
- 
+
 .portfolio {
     margin-top: 10%;
     background-color: white;
     padding: 10% 0;
 }
- 
+
 .portfolio h3 {
     font-size: 1.8em;
     font-weight: lighter;
 }
- 
+
 .gallery {
     margin-top: 10%;
 }
- 
+
 .gallery img {
     max-width: 90%;
     height: auto;
 }
- 
+
 .contact {
     padding: 10%;
     color: #727272;
 }
- 
+
 .reachme {
     margin: 5px 0;
 }
- 
+
 .reachme span {
     margin: 15px;
 }
- 
+
 .reachme span a {
     font-weight: bold;
     text-decoration: none;
     color: #727272;
 }
- 
+
 footer {
     padding: 5%;
     border-top: 1px solid #cccbcb;
     width: 90%;
 }
- 
+
 .Capucine {
     float:left;
     width: 45%;
@@ -108,7 +108,7 @@ footer {
     float:right;
     width: 45%;
 }
- 
+
 .mobile a {
     font-weight: bold;
     text-decoration: none;
@@ -120,7 +120,7 @@ footer {
 .not-mobile {
 	display: none;
 }
- 
+
 .clearfix:after {
      visibility: hidden;
      display: block;
@@ -129,23 +129,23 @@ footer {
      clear: both;
      height: 0;
 }
- 
+
 /*      MEDIA QUERIES   */
- 
+
 @media (min-width: 480px) {
     #main-nav ul li {
         display: inline;
         background-color: #fbfbfb;
         font-size: 0.8em;
     }
- 
+
     .profile {
         width: 30%;
         float: right;
         margin: 2%;
         vertical-align:top;
     }
- 
+
     .intro p {
         width: 50%;
         float: left;
@@ -153,19 +153,19 @@ footer {
         vertical-align:top;
         font-size: 0.9em;
     }
- 
+
     .gallery h3 {
         font-size: 0.8rem;
     }
- 
+
     .gallery p {
             font-size: 0.7rem;
         }
- 
+
     .portfolio {
         padding: 5%;
     }
- 
+
     .gallery {
         display: inline-block;
         width: 45%;
@@ -176,16 +176,16 @@ footer {
 	.mobile {
 		display: none;
 	}
-	
+
 	.not-mobile {
 		display: inline-block;
 	}
-	
+
 	.not-mobile ul li {
 		list-style-type: none;
 		float:right;
 	}
-	
+
 	.not-mobile ul li a {
 	    width: 32%;
 	    font-weight: bold;
@@ -195,13 +195,13 @@ footer {
 		padding-left: 0;
 		margin: 5px;
 	}
-	
+
 	.Capucine {
 		width: 32%;
 	}
 
 }
- 
+
 @media (min-width: 768px) {
     .wrapper {
         max-width: 1000px;
@@ -213,32 +213,35 @@ footer {
         margin: 5px -7px;
         padding: 5px;
     }
- 
+
     .gallery h3 {
         font-size: 1.1rem;
     }
- 
+
     .gallery p {
             font-size: 0.9rem;
         }
-	
+
     }
-	
+
 @media (min-width: 1024px) {
-	
+
 	#title {
 		float:left;
 		width:30%;
 		vertical-align: top;
 	}
-	
+
 	#main-nav {
 		float: right;
 		width: 50%;
 		padding-top: 6%;
 	}
-	
+  #main-nav ul {
+    text-align:right;
+  }
+
 	#main-nav ul li {
 		padding-right: 20px;
 	}
-} 
+}
